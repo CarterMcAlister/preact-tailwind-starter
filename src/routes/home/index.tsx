@@ -1,10 +1,9 @@
 import { FunctionalComponent, h } from 'preact'
-import style from './style.css'
 
 const Home: FunctionalComponent = () => {
   return (
-    <div class={style.home}>
-      <h1 class="text-3xl">Home</h1>
+    <div class="min-h-full w-full px-4 py-6">
+      <h1 class="text-3xl pb-10">Home</h1>
       <p>This is the Home component.</p>
     </div>
   )
