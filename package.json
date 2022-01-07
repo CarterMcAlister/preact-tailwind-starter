@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "react-webflow",
+  "name": "preact-tailwind-starter",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
@@ -21,35 +21,34 @@
     ]
   },
   "dependencies": {
-    "preact": "^10.3.1",
-    "preact-render-to-string": "^5.1.4",
-    "preact-router": "^3.2.1"
+    "preact": "^10.6.4",
+    "preact-render-to-string": "^5.1.19",
+    "preact-router": "^4.0.0"
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^4.1.3",
-    "@types/enzyme": "^3.10.5",
-    "@types/jest": "^26.0.8",
-    "@typescript-eslint/eslint-plugin": "^2.25.0",
-    "@typescript-eslint/parser": "^2.25.0",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/preact": "^2.0.1",
+    "@types/jest": "^27.4.0",
+    "@typescript-eslint/eslint-plugin": "^5.9.0",
+    "@typescript-eslint/parser": "^5.9.0",
     "autoprefixer": "^10.4.2",
-    "enzyme": "^3.11.0",
-    "enzyme-adapter-preact-pure": "^3.1.0",
-    "eslint": "^6.8.0",
-    "eslint-config-preact": "^1.1.1",
-    "jest": "^27.2.5",
-    "jest-preset-preact": "^4.0.2",
+    "eslint": "^8.6.0",
+    "eslint-config-preact": "^1.3.0",
+    "jest": "^27.4.7",
+    "jest-preset-preact": "^4.0.5",
     "postcss": "^8.4.5",
-    "preact-cli": "^3.0.0",
-    "preact-cli-tailwind": "^3.0.0",
-    "sirv-cli": "^1.0.0-next.3",
+    "preact-cli": "^3.3.3",
+    "sirv-cli": "^2.0.1",
     "tailwindcss": "^3.0.12",
-    "typescript": "^4.5.2"
+    "typescript": "^4.5.4"
   },
   "jest": {
     "preset": "jest-preset-preact",
     "setupFiles": [
-      "<rootDir>/tests/__mocks__/browserMocks.ts",
-      "<rootDir>/tests/__mocks__/setupTests.ts"
+      "<rootDir>/tests/__mocks__/browserMocks.ts"
+    ],
+    "setupFilesAfterEnv": [
+      "<rootDir>/tests/setupTests.ts"
     ]
   }
 }
