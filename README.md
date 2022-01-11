@@ -1,4 +1,4 @@
-# react-webflow
+# preact-tailwind-starter
 
 ## CLI Commands
 *   `npm install`: Installs dependencies
